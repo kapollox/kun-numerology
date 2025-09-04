@@ -23,6 +23,12 @@ KÜN Numeroloji, bu bilgileri modern bir arayüzle kullanıcıya sunar.
 
 ---
 
+## Ekran Görüntüsü
+<img width="1918" height="1032" alt="screenshot" src="https://github.com/user-attachments/assets/41e2fc44-c60c-4a17-8bf3-a7d75c02720d" />
+<img width="1917" height="1028" alt="screenshot1" src="https://github.com/user-attachments/assets/b5d6bfed-b25f-4d79-8147-0cae68ce927b" />
+
+
+
 ## Kurulum (Windows)
 1. [Releases](https://github.com/kapollox/kun-numerology/releases) bölümünden en güncel  
    **`KUN-Numeroloji-Setup-x.x.x.exe`** dosyasını indir.  
