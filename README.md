@@ -1,4 +1,5 @@
 #  KÜN Numeroloji
+<img width="192" height="192" alt="pwa-192x192" src="https://github.com/user-attachments/assets/efa1820d-a3a6-41d5-8582-5ffad73bc67e" />
 
 KÜN Numeroloji, **React + Vite + Electron** teknolojileriyle geliştirilmiş masaüstü bir uygulamadır.  
 Kullanıcıların isim ve doğum tarihi bilgilerine göre **numeroloji hesaplamaları** yapar ve bu sayıların kişisel / ruhsal anlamlarını gösterir.
