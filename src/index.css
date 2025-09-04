@@ -1,0 +1,41 @@
+/* Genel düzen */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0b0f14;
+  color: #f1f5f9;
+}
+
+/* Grid düzeni */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Kartlar */
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  background: #0f1625;
+}
+
+/* Başlıklar */
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Küçük ekranlarda daha kompakt */
+@media (max-width: 600px) {
+  .card {
+    padding: 12px;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .section-title {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}

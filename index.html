@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Numeroloji Uygulaması</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0b0f14; color: #e6edf3; }
+      .container { max-width: 980px; margin: 0 auto; padding: 24px; }
+      .card { background: #0f1720; border: 1px solid #1f2937; border-radius: 14px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+      .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+      @media (min-width: 860px) { .grid { grid-template-columns: 1fr 1fr; } }
+      label { display: block; margin-bottom: 8px; font-weight: 600; }
+      input[type="text"], input[type="date"] { width: 100%; padding: 10px 12px; border-radius: 10px; background: #0b1220; border: 1px solid #1f2a44; color: #e6edf3; outline: none; }
+      input[type="text"]::placeholder { color: #95a2b3; }
+      .row { display: flex; align-items: center; gap: 10px; }
+      .switch { display: inline-flex; align-items: center; gap: 8px; }
+      .pill { background: #122033; border: 1px solid #1f2a44; padding: 6px 10px; border-radius: 999px; font-size: 12px; }
+      .title { font-size: 24px; font-weight: 700; margin: 0 0 8px; }
+      .muted { color: #aab7c7; font-size: 14px; }
+      pre { background: #0b1220; padding: 16px; border-radius: 12px; overflow: auto; border: 1px solid #1f2a44; }
+      .btn { background: #1f6feb; color: white; border: 0; padding: 10px 14px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+      .btn:disabled { opacity: .6; cursor: not-allowed; }
+      .section-title { font-weight: 700; margin: 18px 0 8px; }
+      .badge { background: #103a20; border: 1px solid #1f5a35; color: #81d69b; padding: 4px 8px; border-radius: 999px; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

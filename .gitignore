@@ -1,0 +1,24 @@
+# Node / React / Vite
+node_modules/
+dist/
+out/
+release/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Electron builder outputs (installer ve unpacked)
+win-unpacked/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.snap
+
+# IDE / sistem dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cache/
